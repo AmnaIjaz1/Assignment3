@@ -57,6 +57,7 @@ public class LibraryBookIssue extends JFrame implements ActionListener {
     String[] unavailableBooks = {"Java Black Book", "DBMS Navathe"};
 
     public LibraryBookIssue() {
+    	getContentPane().setBackground(SystemColor.activeCaption);
         setTitle("Library Book Issue System");
         setSize(549, 564);
         setDefaultCloseOperation(DO_NOTHING_ON_CLOSE); // ← changed so we control exit ourselves
